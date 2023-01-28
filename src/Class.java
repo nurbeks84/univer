@@ -6,6 +6,10 @@ public class Class {
     String soz;
     int[] mass;
 
+
+    public Class() {
+    }
+
     public int getNumber() {
         return number;
     }
