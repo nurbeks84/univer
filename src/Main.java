@@ -8,7 +8,7 @@ public class Main {
 //        System.out.println(student2); */
 //        Class a = new Class(10,"mektep",new int[]{5,76,23,90});
 //        System.out.println(a);
-        Popugai popugai =new Popugai();
+ /*       Popugai popugai =new Popugai();
         popugai.setName("eagle");
         popugai.setAge(3);
         popugai.setColor("green");
@@ -25,7 +25,26 @@ public class Main {
 
         System.out.println(popugai);
         System.out.println(cat);
-        System.out.println(dog);
+        System.out.println(dog); */
+        Cow cow = new Cow(300,13,"qunagyn","Boria");
+        Cow cow1 = new Cow(300,13,"qunagyn","Boria");
+        Cow cow2 = new Cow(300,13,"qunagyn","Boria");
+        Cow cow3 = new Cow(300,13,"qunagyn","Boria");
+        Cow cow4 = new Cow(300,13,"qunagyn","Boria");
+        Sheep sheep = new Sheep(70,4,"sooluk","Pino");
+        Sheep sheep1 = new Sheep(70,4,"sooluk","Pino");
+        Sheep sheep2 = new Sheep(70,4,"sooluk","Pino");
+        Horse horse = new Horse(500,8,"aigyr","Ahiles");
+        Horse horse1 = new Horse(500,8,"aigyr","Ahiles");
+
+        Farm farm1 = new Farm("Nooken",new Cow[]{cow1,cow2,cow3,cow4},new Sheep[]{sheep1,sheep,sheep2},
+                new Horse[]{horse1,horse},"Isxak" );
+
+
+        Farm farm2 = new Farm("Nooken",new Cow[]{cow1},new Sheep[]{sheep1},
+                new Horse[]{horse1},"Bolot");
+
+        System.out.println(farm1);
 
     }
 }
